@@ -41,3 +41,10 @@ double gammaMT(double a, double b) {
       return (d*v*b);
   }
 }
+
+double beta(double a, double b) {
+  double x,y;
+  x = gammaMT(a,1);
+  y = gammaMT(b,1);
+  return x / (x + y);
+}

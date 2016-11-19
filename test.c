@@ -5,6 +5,6 @@
 
 int main() {
   srand(time(NULL));
-  while(1) printf("%.17f\n",gammaMT(9.0,0.5));
+  while(1) printf("%.17f\n",beta(2,5));
   return 0;
 }
